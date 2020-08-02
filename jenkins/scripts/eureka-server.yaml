@@ -34,9 +34,9 @@ spec:
   ports:
   - name: tcp
     nodePort: 32575
-    port: 8969
+    port: 8080
     protocol: TCP
-    targetPort: 8969
+    targetPort: 8080
   selector:
     app: eureka-server
   type: NodePort
