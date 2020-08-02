@@ -16,10 +16,12 @@ spec:
         app: eureka-server
     spec:
       containers:
-      - image: registry.cn-hangzhou.aliyuncs.com/ypx/eureka-server:{VERSION}
+      - image: harbor.edu.cn/cn202009/eureka-server:{VERSION}
         imagePullPolicy: IfNotPresent
         name: eureka-server
       restartPolicy: Always
+	  imagePullSecrets:
+	  - name: mytoken
 ---
 apiVersion: v1
 kind: Service
