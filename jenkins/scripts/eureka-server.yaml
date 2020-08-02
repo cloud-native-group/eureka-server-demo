@@ -30,7 +30,7 @@ metadata:
   namespace: cn202009
 spec:
   ports:
-  - name: eureka-server
+  - name: TCP
     nodePort: 32575
     port: 8969
     protocol: TCP
