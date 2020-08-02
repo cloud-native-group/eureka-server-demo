@@ -19,6 +19,8 @@ spec:
       - image: harbor.edu.cn/cn202009/eureka-server:{VERSION}
         imagePullPolicy: IfNotPresent
         name: eureka-server
+        ports:
+        - container-Port: 8969
       restartPolicy: Always
       imagePullSecrets:
       - name: mytoken
