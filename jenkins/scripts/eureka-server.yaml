@@ -20,7 +20,7 @@ spec:
         imagePullPolicy: IfNotPresent
         name: eureka-server
         ports:
-        - container-Port: 8969
+        - containerPort: 8969
       restartPolicy: Always
       imagePullSecrets:
       - name: mytoken
