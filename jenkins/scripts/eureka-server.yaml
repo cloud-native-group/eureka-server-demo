@@ -16,7 +16,7 @@ spec:
         app: eureka-server
     spec:
       containers:
-      - image: harbor.edu.cn/cn202009/eureka-server:{VERSION}
+      - image: registry.cn-hangzhou.aliyuncs.com/ypx/eureka-server:{VERSION}
         imagePullPolicy: IfNotPresent
         name: eureka-server
       restartPolicy: Always
