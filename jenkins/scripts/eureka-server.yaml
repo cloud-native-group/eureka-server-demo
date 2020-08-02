@@ -31,7 +31,7 @@ metadata:
 spec:
   ports:
   - name: eureka-server
-    nodePort: 32576
+    nodePort: 32575
     port: 8969
     protocol: TCP
     targetPort: 8969
